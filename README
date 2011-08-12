@@ -1,3 +1,7 @@
 ---- Aug 08, 2011----
 Hi Greg.
 Hey Andrew.
+
+---- Aug 12, 2011---
+You might try editing the xml manifest rather than hard-coding
+the "hello world," as discussed in the tutorial.
