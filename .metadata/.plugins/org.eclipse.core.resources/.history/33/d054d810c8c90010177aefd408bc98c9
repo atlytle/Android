@@ -24,8 +24,6 @@ import android.view.MenuItem;
 public class Notepadv1 extends ListActivity {
     private int mNoteNumber = 1;
     private NotesDbAdapter mDbHelper;
-    public static final int INSERT_ID = Menu.FIRST;
-
 
     /** Called when the activity is first created. */
     @Override
@@ -40,9 +38,7 @@ public class Notepadv1 extends ListActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // TODO Auto-generated method stub
-        boolean result = super.onCreateOptionsMenu(menu);
-        menu.add(0, INSERT_ID, 0, R.string.menu_insert);
-        return result;
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override

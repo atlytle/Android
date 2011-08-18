@@ -27,3 +27,9 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/atlyt
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2011-08-18 18:29:28.318
 !MESSAGE Failed to load properties file for project 'Notepadv1'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2011-08-18 19:26:39.301
+!MESSAGE AndroidManifest: Ignoring unknown 'st' XML element
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2011-08-18 19:26:39.830
+!MESSAGE AndroidManifest: Ignoring unknown 'stri' XML element
