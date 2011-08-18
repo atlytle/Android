@@ -16,23 +16,18 @@
 
 package com.android.demo.notepad1;
 
-import android.app.ListActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Notepadv1 extends ListActivity {
+public class Notepadv1 extends Activity {
     private int mNoteNumber = 1;
-    private NotesDbAdapter mDbHelper;
 
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.notepad_list);
-        mDbHelper = new NotesDbAdapter(this);
-        mDbHelper.open();
-        fillData();
     }
 
     @Override
