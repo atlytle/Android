@@ -14,3 +14,16 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/atlyt
 
 !ENTRY org.eclipse.ui 4 4 2011-08-12 20:45:47.859
 !MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2011-08-18 18:27:28.303 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_26
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/atlytle/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/atlytle/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2011-08-18 18:27:40.366
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2011-08-18 18:29:28.318
+!MESSAGE Failed to load properties file for project 'Notepadv1'
